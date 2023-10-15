@@ -1,17 +1,18 @@
 # Smart-Home-Automation-and-Security-System-IOT
 
-Overview
+## Overview
 
 This Smart Home Automation System is designed to monitor and control various aspects of your home, including temperature, humidity, water level, and security. It utilizes various sensors and the ESP8266 Wi-Fi module to provide real-time data and control through a remote application. This system can help you maintain a comfortable and secure home environment.
 
-Features
+### Features
 Temperature Monitoring: The system uses a temperature sensor to continuously measure the indoor temperature and provide real-time updates.
 Fire Alert: If the temperature exceeds a predefined threshold, the system will trigger a fire alert to notify you.
 Humidity Regulation: A humidity sensor is used to maintain the desired humidity level in your home.
 Water Level Detection: An ultrasonic sensor is employed to monitor the water level in a container and send alerts if it overflows.
 Security: A buzzer is included for security alerts or to signal various conditions.
 Remote Control: The system is equipped with an ESP8266 Wi-Fi module that allows you to control and monitor datastreams from your sensors using a remote application.
-Hardware Requirements
+
+#### Hardware Requirements
 To set up this system, you will need the following components:
 
 ESP8266 Wi-Fi module
@@ -22,10 +23,11 @@ Buzzer
 Power source
 Container for water level monitoring (if applicable)
 Internet connection for the ESP8266
-Installation
+
+## Installation
 Hardware Setup: Connect the sensors (temperature, humidity, ultrasonic) and the buzzer to the ESP8266 module as per the provided wiring diagrams.
 
-Software Setup: You will need to program the ESP8266 module with the appropriate code. This code will read data from the sensors, monitor conditions, and send alerts if necessary. Be sure to configure your Wi-Fi credentials in the code to enable remote communication.
+### Software Setup: You will need to program the ESP8266 module with the appropriate code. This code will read data from the sensors, monitor conditions, and send alerts if necessary. Be sure to configure your Wi-Fi credentials in the code to enable remote communication.
 
 Remote Application: Create a remote application on your computer or mobile device to receive and display sensor data. The application should be able to connect to the ESP8266 module via Wi-Fi.
 
@@ -37,7 +39,7 @@ Set Thresholds: Define the temperature threshold for fire alerts and the desired
 
 Water Level Monitoring: If you are using the ultrasonic sensor for water level detection, set it up in a container and configure the system to send alerts when the water level is too high.
 
-Usage
+#### Usage
 Once the system is set up, it will continuously monitor temperature, humidity, and water level. You can interact with the system through the remote application. Here's how you can use the system:
 
 View real-time temperature and humidity data.
