@@ -27,7 +27,7 @@ Internet connection for the ESP8266
 ## Installation
 Hardware Setup: Connect the sensors (temperature, humidity, ultrasonic) and the buzzer to the ESP8266 module as per the provided wiring diagrams.
 
-### Software Setup: You will need to program the ESP8266 module with the appropriate code. This code will read data from the sensors, monitor conditions, and send alerts if necessary. Be sure to configure your Wi-Fi credentials in the code to enable remote communication.
+#### Software Setup: You will need to program the ESP8266 module with the appropriate code. This code will read data from the sensors, monitor conditions, and send alerts if necessary. Be sure to configure your Wi-Fi credentials in the code to enable remote communication.
 
 Remote Application: Create a remote application on your computer or mobile device to receive and display sensor data. The application should be able to connect to the ESP8266 module via Wi-Fi.
 
