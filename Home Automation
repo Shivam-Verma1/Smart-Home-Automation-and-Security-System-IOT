@@ -7,7 +7,6 @@
 //libraries
 #include <ESP8266WebServer.h>
 #include <DNSServer.h>
-#include <WiFiManager.h>
 #include <LiquidCrystal_I2C.h>
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
